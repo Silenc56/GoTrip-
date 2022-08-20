@@ -1,0 +1,67 @@
+@import "_reletiv";
+
+.custumers {
+  padding: 100px 0 133px;
+}
+.custumers__row {
+  display: flex;
+
+  column-gap: 68px;
+}
+.custumers__img {
+  max-width: 478px;
+  img {
+    border-radius: 60px;
+  }
+}
+
+.custumers__title {
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 35px;
+  color: #0f1f1c;
+}
+.review {
+  max-width: 490px;
+}
+.review__client {
+  margin-bottom: 60px;
+  align-items: center;
+  column-gap: 33px;
+  display: flex;
+}
+.review__client-avatar {
+  overflow: hidden;
+  width: 134px;
+  height: 134px;
+  border-radius: 50%;
+  background: #ff794e;
+}
+
+.review__client-desc-name {
+  font-weight: 500;
+  font-size: 33px;
+  margin-bottom: 10px;
+  color: #0f1f1c;
+}
+.review__client-desc-country {
+  font-weight: 400;
+  font-size: 25px;
+
+  color: #0f1f1c;
+
+  opacity: 0.5;
+}
+.review__text {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 22px;
+
+  color: #0f1f1c;
+
+  opacity: 0.5;
+}
+.review__rating {
+  width: 327px;
+  height: 59px;
+}

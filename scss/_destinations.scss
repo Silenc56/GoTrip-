@@ -1,0 +1,58 @@
+@import "_reletiv";
+
+/* destinations */
+.destinations {
+  padding: 96px 0 100px;
+  overflow-x: hidden;
+}
+
+.destinations__row {
+  display: flex;
+  column-gap: 50px;
+}
+.destinations__content {
+  max-width: 456px;
+}
+.destinations__slider {
+  width: 1110px;
+  flex-shrink: 0;
+}
+.destinations__title {
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 82px;
+  margin-bottom: 15px;
+  color: #0f1f1c;
+
+  span {
+    font-size: 30px;
+    line-height: 45px;
+  }
+}
+.destinations__text {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #0f1f1c;
+  opacity: 0.5;
+  padding-bottom: 84px;
+}
+.destinations__btn {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  transition: 0.6s ease;
+  color: #fefefe;
+  background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%);
+  padding: 24px 44px;
+  border-radius: 27px;
+  &:hover {
+    color: #204434;
+    transition: all 0.3s ease-in;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}

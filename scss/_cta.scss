@@ -1,0 +1,71 @@
+@import "_reletiv";
+
+.cta {
+  padding: 100px 0;
+}
+.cta__plate {
+  position: relative;
+  background-color: #fff;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1240px;
+  min-height: 580px;
+  padding: 40px 15px;
+  align-items: center;
+  justify-content: center;
+  &::before {
+    position: absolute;
+    content: "";
+    width: 63px;
+    height: 83px;
+    left: 74px;
+    bottom: 56px;
+    background-image: url("./../img/cta/cta-el-02.svg");
+  }
+  &::after {
+    position: absolute;
+    content: "";
+    width: 63px;
+    height: 83px;
+    top: 74px;
+    right: 80px;
+    background-image: url("./../img/cta/cta-el-01.svg");
+  }
+}
+.cta__title {
+  font-weight: 500;
+  font-size: 45px;
+  margin-bottom: 30px;
+  color: #0f1f1c;
+  text-align: center;
+}
+.cta__text {
+  font-weight: 400;
+  font-size: 30px;
+
+  color: #0f1f1c;
+
+  opacity: 0.5;
+  margin-bottom: 60px;
+}
+.cta__btn {
+  font-size: 20px;
+  color: #ffffff;
+  display: inline-block;
+  background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%),
+    #ffffff;
+  color: #fff;
+  border-radius: 27px;
+  transition: 0.6s ease;
+  padding: 24px 54px;
+  font-weight: 600;
+  &:hover {
+    color: #204434;
+    transition: all 0.3s ease-in;
+  }
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}
